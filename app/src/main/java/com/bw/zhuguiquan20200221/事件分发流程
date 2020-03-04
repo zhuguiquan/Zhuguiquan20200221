@@ -1,0 +1,6 @@
+ 事件分发:
+     activity    事件分发   事件消费      事件分发为false就到事件消费 为true执行
+
+     viewGroup   事件分发   事件拦截   事件消费    事件分发为false就到事件拦截 为true执行
+
+      view       事件分发   事件消费        事件分发为false就到事件消费 为true执行
